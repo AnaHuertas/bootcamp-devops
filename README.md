@@ -1,2 +1,2 @@
 # bootcamp-devops
-answer to the technical challenges in bootcamp-devops
+non  descriptive detailed description 

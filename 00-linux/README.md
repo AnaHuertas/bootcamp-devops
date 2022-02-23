@@ -3,8 +3,7 @@
 ## Ejercicio 1
 
 ```bash
-
-escribir comandos aqui
+se guaradara o lo perdere todo otra vez?
 ```
 
 ejercicio 3 y 4 se entregan en .sh

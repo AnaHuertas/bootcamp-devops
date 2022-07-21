@@ -8,12 +8,8 @@ if [ -z "$TEXTO" ]; then #-z mira si esta vacio
   TEXTO="Que me gusta la bash!!!!" #esta vacio, no te han pasado nada, escribe esto
 fi
 
-mkdir -p foo/dummy
-cd foo
-mkdir empty
-cd dummy
-touch file1.txt file2.txt
-echo $TEXTO>file1.txt
-cd ..
-mv dummy/file2.txt empty
-cp dummy/file1.txt empty/file2.txt
+mkdir -p foo/dummy foo/empty
+touch foo/dummy/file2.txt
+echo $TEXTO > foo/dummy/file1.txt 
+cat foo/dummy/file1.txt > foo/dummy/file2.txt 
+mv foo/dummy/file2.txt foo/empty
